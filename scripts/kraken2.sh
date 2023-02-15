@@ -3,7 +3,7 @@
 #--------------------------SBATCH settings------
 
 #SBATCH --job-name=kraken2_array        ## job name
-#SBATCH -A katrine_lab                  ## account to charge
+#SBATCH -A <account name>               ## account to charge
 #SBATCH -p standard                     ## partition/queue name
 #SBATCH --nodes=1                       ## number of nodes to use
 #SBATCH --ntasks=1                      ## number of tasks to launch
@@ -20,7 +20,7 @@ module load kraken2/2.1.2
 # define directories
 contigs=data/processed/contigs
 output=data/processed/kraken2
-db=/dfs7/whitesonlab/kraken2_db
+db=</path/to/database/kraken2_db>
 
 ## create file name list
 temp=$(basename -s .contig.fasta $contigs/*.contig.fasta | sort -u)

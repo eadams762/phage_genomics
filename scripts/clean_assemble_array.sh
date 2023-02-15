@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=clean&assemble_array	## job name
-#SBATCH -A katrine_lab			## account to charge
+#SBATCH -A <account name>		## account to charge
 #SBATCH -p standard			## partition/queue name
 #SBATCH --nodes=1               	## number of nodes to use
 #SBATCH --ntasks=1              	## number of tasks to launch
@@ -22,7 +22,7 @@ trim=data/raw/trim
 dedupe=data/raw/dedupe
 clean=data/processed/reads
 output=data/processed/assembly
-grch38=/dfs6/pub/adamsed/bowtie2.refs/GRCh38/grch38_1kgmaj_snvs
+grch38=<directory/path/to/GRCh38/grch38_1kgmaj_snvs>
 
 ## create file name list
 temp=$(basename -s _R1.fastq.gz $input/*_R1.fastq.gz | sort -u)

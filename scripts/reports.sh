@@ -3,7 +3,7 @@
 #--------------------------SBATCH settings------
 
 #SBATCH --job-name=reports	## job name
-#SBATCH -A class-ee282		## account name
+#SBATCH -A <account name>	## account name
 #SBATCH -p standard		## partition/queue name
 #SBATCH --nodes=1		## number of nodes to use
 #SBATCH --ntasks=1		## number of tasks to launch

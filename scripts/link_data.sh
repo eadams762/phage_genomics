@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SourceDir=/pub/adamsed/data/raw/phage
-DestDir=/pub/adamsed/git_repos/phage_genomics/data/raw
+SourceDir=<directory/with/raw/read/files>
+DestDir=data/raw
 FILES=$(basename -a $SourceDir/*)
 
 for f in $FILES

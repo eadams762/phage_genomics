@@ -1,0 +1,23 @@
+Phage	Size	GC	CDS	(Annotated/Hypothetical)	tRNAs	AMR	Integrase	Genus	Closest_Relative
+Ben	145346	37.3	181	(32/149)	25	None	No	Schiekvirus	Enterococcus phage EFDG1
+Bill	143364	37.1	187	(32/155)	14	None	No	Schiekvirus	Enterococcus phage EFDG1
+Bob	140858	35.9	210	(36/174)	6	None	No	Kochikohdavirus	Kochikohdavirus EF24C
+Bop	149777	37.2	189	(30/159)	23	None	No	Schiekvirus	Enterococcus phage EfV12-phi1
+Car	141012	35.8	209	(37/172)	6	None	No	Kochikohdavirus	Enterococcus phage EFLK1
+Carl	143298	35.9	213	(39/174)	6	None	No	Kochikohdavirus	Enterococcus phage ECP3
+CCS1	152832	37.2	192	(35/157)	24	None	No	Schiekvirus	Enterococcus phage EFP01
+CCS2	57680	39.8	102	(19/83)	3	efrA	No	Saphexavirus	Streptococcus phage SP-QS1
+CCS3	57062	39.8	99	(18/81)	1	None	No	Saphexavirus	Enterococcus phage VD13
+CCS4	39995	34.9	66	(15/51)	0	None	No	Efquatrovirus	Enterococcus phage phiSHEF4
+CCS5	57572	40	102	(17/85)	1	efrA	No	Saphexavirus	Enterococcus phage SAP6
+OC10A	56483	40	99	(19/80)	1	efrA	No	Saphexavirus	Enterococcus phage IMEEF1
+OC10B	140044	35.7	199	(40/159)	6	None	No	Kochikohdavirus	Enterococcus phage ECP3
+OC2B	n/a	n/a	n/a		n/a	n/a	n/a	n/a	n/a
+OC3A	56915	40	99	(18/81)	3	None	No	Saphexavirus	Enterococcus phage VD13
+OC3D	57478	40	101	(19/82)	1	None	No	Saphexavirus	Enterococcus phage IMEEF1
+OC5C	56957	39.7	97	(21/76)	1	None	No	Saphexavirus	Enterococcus phage VD13
+OC8L	58468	39.8	99	(16/83)	2	None	No	Saphexavirus	Enterococcus phage VD13
+SDS1	55807	39.9	96	(19/77)	1	None	No	Saphexavirus	Streptococcus phage SP-QS1
+SDS2	57384	39.8	99	(19/80)	1	None	No	Saphexavirus	Enterococcus phage VD13
+Tex	150857	37.2	190	(33/157)	24	None	No	Schiekvirus	Enterococcus phage EFP01
+Ump	19601	34.9	23	(6/17)	0	None	No	Minhovirus	Enterococcus phage vB_EfaP_Zip
